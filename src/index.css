@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  height: 1px;
+  width: 1px;
+}
+
+.app {
+  background: linear-gradient(60deg, #2e2e2e, #2e2b2b);
+  height: 100vh;
+  width: 100vw;
+  overflow: scroll;
+  padding: 25px 0;
+}
+
+.app-content {
+  width: 90%;
+  margin: 0 auto;
+}

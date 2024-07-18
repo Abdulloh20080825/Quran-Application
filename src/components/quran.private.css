@@ -1,0 +1,20 @@
+.edution-quran {
+}
+.edution-quran h1 {
+  margin: 20px 0;
+}
+
+.surah-items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px 30px;
+}
+
+.surah-items p {
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.surah-items p:hover {
+  text-decoration: underline;
+}
