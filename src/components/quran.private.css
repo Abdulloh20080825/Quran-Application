@@ -1,3 +1,8 @@
+.get-djuz input {
+  width: 25%;
+  color: #000;
+}
+
 .edution-quran {
 }
 .edution-quran h1 {
@@ -29,4 +34,25 @@
   .surah-items p {
     font-size: 10px;
   }
+}
+
+.container {
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin-bottom: 1rem;
+}
+
+.surah-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.ayah-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
 }

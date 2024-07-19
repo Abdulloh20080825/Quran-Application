@@ -32,9 +32,7 @@ const GetEdutionQuran = () => {
         {getAllSurahs.map((item, index) => (
           <div key={index} className="surah-item">
             <p onClick={() => viewsSurahHandler(index + 1)}>
-              {index + 1}: {item.englishName} - ({item.name} - (
-              {item.englishNameTranslation}
-              ))
+              {index + 1}: {item.englishName} - ({item.name})
             </p>
           </div>
         ))}

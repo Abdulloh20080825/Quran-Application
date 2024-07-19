@@ -1,0 +1,11 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-items p {
+  cursor: pointer;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+}
