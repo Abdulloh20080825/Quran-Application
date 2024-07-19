@@ -5,7 +5,7 @@ import GetDjuzQuran from "./getDjuzQuran";
 const Main = () => {
   return (
     <div>
-      <GetDjuzQuran />
+      {/* <GetDjuzQuran /> */}
       <GetEdutionQuran />
     </div>
   );

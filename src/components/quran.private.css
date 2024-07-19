@@ -18,3 +18,15 @@
 .surah-items p:hover {
   text-decoration: underline;
 }
+
+@media only screen and (max-width: 1050px) {
+  .surah-items {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .surah-items p {
+    font-size: 10px;
+  }
+}
